@@ -1,0 +1,9 @@
+non pointer like stuff (they copy instead of reference)
+- variables 
+var a int = 42
+var b *int = &a // b equals the memory address of a
+*b = a // dereferencing b (*b) means getting the value assigned to that memory address which is a
+
+pointer like stuff
+- slices
+- map
